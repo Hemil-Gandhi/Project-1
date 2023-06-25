@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome Page</title>
+  </head>
+  <style>
+    em {
+      font-size: 50px;
+      position: absolute;
+      left: 360px;
+      font-family: "arial";
+    }
+    body {
+      background-color: black;
+      color: white;
+    }
+    footer {
+      position: absolute;
+      font-weight: bold;
+      bottom: -5px;
+      right: 10px;
+    }
+    #edible {
+      border-radius: 10%;
+      position: absolute;
+      left: 200px;
+      top: 200px;
+      width: 250px;
+      height: 188px;
+    }
+    #ed {
+      position: absolute;
+      left: 290px;
+      top: 380px;
+      color: yellow;
+      font-size: 30px;
+    }
+    #poison {
+      border-radius: 10%;
+      position: absolute;
+      left: 950px;
+      top: 200px;
+      width: 250px;
+      height: 188px;
+    }
+    #pi {
+      position: absolute;
+      left: 1020px;
+      top: 380px;
+      color: rgb(255, 2, 255);
+      font-size: 30px;
+    }
+    #or {
+      position: absolute;
+      left: 670px;
+      top: 240px;
+      font-size: 50px;
+      background-image: linear-gradient(to right, yellow, purple);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-family: sans-serif;
+    }
+    #predict {
+      border: 8px solid cyan;
+      position: absolute;
+      padding: 15px;
+      left: 645px;
+      top: 550px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: sans-serif;
+      color: chartreuse;
+    }
+    #predict:hover {
+      color: red;
+      background-color: white;
+      text-decoration: solid;
+      font-size: 25px;
+      cursor: grab;
+    }
+  </style>
+  <body>
+    <h1><em>Welcome To The Mushroom Test</em></h1>
+    <img src="edible.jpg" alt="Edeible Mushroom Image"/ id="edible">
+    <h2 id="ed">Edible</h2>
+    <img src="poison.jpg" alt="Poisonous Mushroom Image" / id="poison" >
+    <h2 id="pi">Poisonous</h2>
+    <h1 id="or">OR</h1>
+    <a href="predict" id="predict">CHECK</a>
+  </body>
+  <footer>Created By Ayush Gandhi</footer>
+</html>
